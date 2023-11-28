@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow:wght@700;800&family=Fraunces:opsz,wght@9..144,600&family=Merriweather:ital@0;1&family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;0,800;1,100&family=Poppins&family=Roboto:wght@100&family=Work+Sans:ital,wght@0,400;0,500;0,800;1,400&display=swap');
+
+body {
+    background-color: rgb(229, 229, 229);
+}
+@media(min-width: 764px){
+    .MainContenaire {
+        width: 95%;
+        margin:auto;
+        background-color: white;
+        height: 850px;
+    margin-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.MainContenaire_functions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 13px;
+}
+
+
+}
+
+    /* padding-bottom: 80px; je vais plutôt mettre le hight à la place*/
+    
+.MainContenaire_Header {
+    background-color: rgb(8, 128, 214);
+    color: white;
+    font-weight: bold;
+    padding: 0.5px;
+    padding-left: 20px;
+
+}
+
+
+.MainContenaire_functions--List {
+    border: 0.09px solid rgb(196, 196, 196);
+    width: 100%;
+    height: auto;
+    /* margin-top: 60px; */
+}
+
+.MainContenaire_functions--List--header {
+    background-color: rgb(8, 128, 214);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5px;
+    width: 100%;
+    height: 50px;
+
+}
+
+.MainContenaire_functions--Formulary {
+    border: 0.09px solid rgb(196, 196, 196);
+    width: 100%;
+    height: 740px;
+    /* margin-top: 60px; */
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.MainContenaire_functions--Formulary--header {
+    background-color: rgb(8, 128, 214);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5px;
+    width: 100%;
+    height: 50px;
+}
+
+
+@media(min-width: 1116px){
+    .MainContenaire_functions {
+        display: flex;
+        flex-direction: row;
+        margin-top: 13px;
+
+}
+
+}
+
+
+.listInput {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 95%;
+    padding-left: 10px;
+    color: rgb(85, 167, 227);
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+input {
+    height: 25px;
+    border: 1px solid rgb(196, 196, 196);
+}
+
+#bio {
+    height: 80px;
+}
+
+#drag {
+    padding: 30px 30px 30px 30px;
+    border: 1px dashed rgb(196, 196, 196);
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#buttonCreate {
+    background-color: rgb(85, 167, 227);
+    color: white;
+    font-weight: bold;
+    width: 80px;
+    height: 30px;
+    border-style: none;
+}
+
+#buttonReinit {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+    height: 30px;
+    border-style: none;
+}
+
+.buttonPosition {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+@media(min-width: 318px){
+    .MainContenaire_Header{
+        margin-left: 2.5px;
+        margin-right: -2px;
+        margin-bottom: 10px;
+        background-color: rgb(180, 75, 92);
+        text-align: center ;
+    }
+   
+}

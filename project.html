@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Bio</title>
+    <style>
+        body{
+            background-color: azure;
+      
+            align-items: center;
+        }
+        .error{
+            color: red;
+            display: inline-block;
+        }
+        .messege{
+            color: red;
+
+        }
+    </style>
+</head>
+<body>
+    <form >
+        <label for="phone">Numéro de telephone:</label>
+        <input type="text" id="phone" name="phone">
+        <button type="button" onclick="checkPhoneNumber()">Valider</button>
+    </form>
+    <p id="message"></p>
+    <label for="bio">Bio:</label>
+    <input  id="bio"  type="text">
+
+    <br>
+    <button onclick="validateBio()">Valider</button>
+    <div id="error-message"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="project.js"></script>
+</body>
+</html>
